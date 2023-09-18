@@ -1,6 +1,6 @@
 # SOBRE
 
-Quando cheguei em Blumenau em março de 2022, me deparei com uma dificuldade enorme para encontrar um imóvel que aceitasse pets. Após rodar uma semana inteira de moto pela cidade e pegar um belo bronzeado, já quase sem esperanças, percebi que cada vez que um imóvel era anunciado, em poucos minutos já havia várias pessoas interessadas e eu nunca conseguia ser o primeiro a entrar em contato com o proprietário ou a imobiliária. 
+Quando cheguei em Blumenau em março de 2022, me deparei com uma dificuldade enorme para encontrar um imóvel que aceitasse pets. Após rodar uma semana inteira de moto pela cidade e pegar um belo bronzeado, já quase sem esperanças, percebi que cada vez que um imóvel era anunciado, em poucos minutos já haviam várias pessoas interessadas e eu nunca conseguia ser o primeiro a entrar em contato com o proprietário ou a imobiliária. 
 Para resolver esse problema e ficar na frente quando um novo anúncio surgisse, precisei criar um scraper em Node.js que verificasse constantemente vários sites a procura de novos anúncios e me notificasse via Telegram assim que eles fossem encontrados.
 
 Gastei um sábado e um domingo para criar esse projetinho, utilizei mysql para salvar os links já encontrados, selenium para a parte de raspagem das informações dos sites e a API node-telegram-bot-api para criar a camada de comunicação do sistema com minha conta no Telegram.
