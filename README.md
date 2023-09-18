@@ -40,6 +40,7 @@ https://www.wimoveis.com.br/casas-aluguel-blumenau-sc-menos-1300-reales-ordem-pu
 
 
 ACESSO AO SERVIDOR AWS
+
 ssh -i "blumenau_imoveis.pem" ubuntu@ec2-54-232-240-110.sa-east-1.compute.amazonaws.com
 
 
