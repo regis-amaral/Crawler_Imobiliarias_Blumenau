@@ -1,6 +1,6 @@
 const db = require("./db");
 const TelegramBot = require('node-telegram-bot-api');
-const token = '5184974923:AAGYGG4lOWyI5tf8IwIkBCE1JGjhm7wxgwA';
+const token = ''; //algo como 5184974923:AAGYGG4lOWyI5tf8IwIkBCE1JGjhm7wxgwA
 const bot = new TelegramBot(token, {polling: true});
 
 (async function blumenau_bot() {
