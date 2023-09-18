@@ -9,6 +9,13 @@ Primeiramente coloquei ele a rodar em um servidor EC2 na AWS, porém como estava
 
 Consegui 3 imóveis para a semana seguinte, dois deles graças a esse sistema, porém acabei optando por um que encontrei via Facebook.
 
+### Gerenciamento do Banco:
+
+https://github.com/regis-amaral/__ARCHIVED__Bot_Scraper_Imobiliarias_Blumenau/blob/main/db.js
+
+### Notificações Telegram:
+
+https://github.com/regis-amaral/__ARCHIVED__Bot_Scraper_Imobiliarias_Blumenau/blob/main/blumenau_bot.js
 
 # Dica: Use protetor solar!
 ![273044274_2686060064873619_922945977297956301_n](https://github.com/regis-amaral/__ARCHIVED__Crawler_Imobiliarias_Blumenau/assets/118540708/9ac50e3b-e23e-4c60-a916-857060010063)
