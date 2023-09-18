@@ -1,0 +1,13 @@
+[Unit]
+Description=BumenauBot
+After=network.target
+StartLimitIntervalSec=0
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=ubuntu
+ExecStart=/usr/bin/node /home/ubuntu/node-project/blumenau_bot.js
+ 
+[Install]
+WantedBy=multi-user.target
