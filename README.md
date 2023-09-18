@@ -1,3 +1,20 @@
+# SOBRE
+
+Quando cheguei em Blumenau em março de 2022, me deparei com uma dificuldade enorme para encontrar um imóvel que aceitasse pets. Após rodar uma semana inteira de moto pela cidade e pegar um belo bronseado, já quase sem esperanças, percebi que cada vez que um imóvel era anunciado, em poucos minutos já havia várias pessoas interessadas e eu nunca conseguia ser o primeiro a entrar em contato com o proprietário ou a imobiliária. 
+Para resolver esse problema e ficar na frente quando um novo anúncio surgisse, precisei criar um scraper em Node.js que verificasse constantemente vários sites a procura de novos anúncios e me notificasse via Telegram assim que eles fossem encontrados.
+
+Gastei um sábado e um domingo para criar esse projetinho, utilizei mysql para salvar os links já encontrados, selenium para a parte de raspagem das informações dos sites e a API node-telegram-bot-api para criar a camada de comunicação do sistema com minha conta no Telegram.
+
+Primeiramente coloquei ele a rodar em um servidor EC2 na AWS, porém como estava utilizando uma conta gratuita e de testes, a capacidade computacional não era suficiente. Logo, optei por deixar ele rodando em meu note enquanto ia pr rua procurar imóveis.
+
+Consegui 3 imóveis para a semana seguinte, dois deles graças a esse sistema, porém acabei optando por um que encontrei via Facebook.
+
+
+
+
+
+# ANOTAÇÕES
+
 https://abelardoimoveis.com.br/imoveis?pretensao=alugar&tipos=23&bairros=&valor_max=1.300
 https://abvaleimoveis.com.br/imoveis?pretensao=alugar&tipos=23&bairros=&valor_max=1.300
 https://www.acrcimoveis.com.br/alugar/sc/blumenau/casa/valor-0_1300/ordem-valor/resultado-crescente/quantidade-24/
