@@ -39,12 +39,6 @@ https://www.tropical.imb.br/imoveis/para-alugar/casa?preco-de-locacao=~1300
 https://www.wimoveis.com.br/casas-aluguel-blumenau-sc-menos-1300-reales-ordem-publicado-maior.html
 
 
-npm install
-
-https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04-pt
-mysql user "node" password "node"
-
-
 ACESSO AO SERVIDOR AWS
 ssh -i "blumenau_imoveis.pem" ubuntu@ec2-54-232-240-110.sa-east-1.compute.amazonaws.com
 
